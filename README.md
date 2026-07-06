@@ -54,3 +54,6 @@ Re-run step 2 whenever you add or change PDFs.
 
 Edit `src/config.py`: raise `TOP_K` for broader context, adjust `CHUNK_SIZE` /
 `CHUNK_OVERLAP` for different document types, or swap `CLAUDE_MODEL`.
+# GitHub Integration Demo
+
+Testing Jenkins Webhook
