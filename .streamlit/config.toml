@@ -1,0 +1,8 @@
+[server]
+# Disable the auto-reload watcher — it tries to introspect every transformers
+# submodule (many want torchvision, which we don't need) and floods the log.
+fileWatcherType = "none"
+headless = true
+
+[browser]
+gatherUsageStats = false
